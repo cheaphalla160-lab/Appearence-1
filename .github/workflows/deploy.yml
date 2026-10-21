@@ -2,7 +2,13 @@ name: Deploy Vite Game to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # 你的主分支是main
+    branches: [ main ]
+
+# ========== 新增这一段权限配置，解决128报错 ==========
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
