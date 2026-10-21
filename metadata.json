@@ -1,0 +1,6 @@
+{
+  "name": "Magic Vocab Kingdom - Primary English Opposites & Features",
+  "description": "An interactive classroom English learning and game suite for primary school students, featuring vocabulary contrasts, PK arena, puzzle matching, character detective, and teacher lesson prep tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
