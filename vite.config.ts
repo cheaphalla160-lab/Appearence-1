@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: "/Appeareence-1/", // ✅ 重点！仓库名字，前后斜杠不能丢
+    base: "/Appeareence-1/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
